@@ -7,6 +7,9 @@ Welcome to test-sphinx-publish's documentation!
 ===============================================
 
 This is some additional text.
+- Some bullet points
+- Some bullet points
+- Some bullet points
 
 .. toctree::
    :maxdepth: 2
