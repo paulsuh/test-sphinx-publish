@@ -6,6 +6,8 @@
 Welcome to test-sphinx-publish's documentation!
 ===============================================
 
+This is some additional text.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
