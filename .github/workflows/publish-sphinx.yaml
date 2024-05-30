@@ -2,8 +2,9 @@ name: Deploy Sphinx documentation to Pages
 
 on:
   push:
-    branches: [gh-pages-source] # branch to trigger deployment
-
+    tags:
+      - docs-*
+    
 jobs:
   pages:
     runs-on: ubuntu-20.04
