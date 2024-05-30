@@ -16,6 +16,7 @@ This is some additional text.
    :maxdepth: 2
    :caption: Contents:
 
+   About <about>
 
 
 Indices and tables
