@@ -14,6 +14,8 @@ This is some additional text.
 
 This is Great!
 --------------
+Or maybe it's just so-so.
+
 
 .. toctree::
    :maxdepth: 2
