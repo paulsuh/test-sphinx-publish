@@ -12,6 +12,9 @@ This is some additional text.
 - Some bullet points
 - Some bullet points
 
+This is Great!
+--------------
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
