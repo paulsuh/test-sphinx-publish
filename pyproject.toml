@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "code-sphinx-publish"
+description = 'A test for github actions.'
+readme = 'README.md'
+authors = [
+    { name = "Paul Suh", email = "paul@mspex.net" }
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 1 - Production/Stable",
+    'Programming Language :: Python :: 3.12',
+    'Operating System :: OS Independent',
+]
+dependencies = [
+]
+requires-python = ">=3.11"
+dynamic = ["version"]
