@@ -19,3 +19,18 @@ dependencies = [
 ]
 requires-python = ">=3.11"
 dynamic = ["version"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    ".github",
+    ".idea",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/test_sphinx_publish"]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "_version.py"
