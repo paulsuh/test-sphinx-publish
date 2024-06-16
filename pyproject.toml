@@ -11,8 +11,8 @@ authors = [
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
-    "Development Status :: 1 - Production/Stable",
-    'Programming Language :: Python :: 3.12',
+    "Development Status :: 2 - Pre-Alpha",
+    'Programming Language :: Python :: 3.11',
     'Operating System :: OS Independent',
 ]
 dependencies = [
